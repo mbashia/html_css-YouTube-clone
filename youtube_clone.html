@@ -1,0 +1,158 @@
+<!DOCTYPYE html>
+  <!-- i used nested laytout technique,css grid,flexbox,nested flexbox,css positioning etc -->
+  <html>
+
+  <head>
+    <title>youtube.com clone</title>
+    <link rel="stylesheet" href="youtube_clone.css" type="text/css" />
+
+  </head>
+
+  <body style="padding-top: 80px; padding-left: 80px;">
+    <div class="header">
+
+      <div class="first_section">
+        <img class="hamburger" src="icons/hamburger-menu.svg">
+        <img class="youtube" src="icons/youtube-logo.svg">
+      </div>
+      <div class="second_section"><input class="search_bar" type="text" placeholder="search" />
+        <button class="search_button"><img class="search_icon" src="icons/search.svg"></button>
+        <button class="voice_button"><img class="voice_icon" src="icons/voice-search-icon.svg"></button>
+      </div>
+      <div class="third_section">
+        <img class="upload_icon" src="icons/upload.svg">
+        <img class="youtube_app_icon" src="icons/youtube-apps.svg">
+        <img class="notificaiton_icon" src="icons/notifications.svg">
+        <img class="channel_picture" src="channel_pictures/Capture.PNG">
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+      </div>
+      <div class="sidebar-link"> <img src="icons/explore.svg">
+        <div>Home</div>
+      </div>
+
+      <div class="sidebar-link"> <img src="icons/subscriptions.svg">
+        <div>explore</div>
+      </div>
+      <div class="sidebar-link"> <img src="icons/originals.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link"> <img src="icons/youtube-music.svg">
+        <div>YouTube music</div>
+      </div>
+      <div class="sidebar-link"> <img src="icons/library.svg">
+        <div>Library</div>
+
+      </div>
+    </div>
+
+    <div class="grid_info">
+      <div class="video_preview">
+        <div style=position:relative;>
+          <img class="thumbnails" src="pictures/audi.jpg" />
+          <div class="time-stamp">5.24</div>
+        </div>
+        <div class="video_grid">
+          <div class="profile_pic">
+            <img class="profile_css" src="pictures/pexels-lisa-fotios-12574223.jpg" width=50px" height="50px">
+          </div>
+          <div class="video_info">
+            <p class="video_title">Audi perfomance car</p>
+            <p class="video_author">Victor mbashia</p>
+            <p class="video_stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video_preview">
+        <div style=position:relative;>
+          <img class="thumbnails" src="pictures/benz.jpg" />
+          <div class="time-stamp">14.24</div>
+        </div>
+        <div class="video_grid">
+          <div class="profile_pic">
+            <img class="profile_css" src="pictures/pexels-pixabay-247931.jpg" width="50px" height="50px">
+          </div>
+          <div class="video_info">
+            <p class="video_title">benz perfomance car</p>
+            <p class="video_author">Victor mbashia</p>
+            <p class="video_stats">3.4M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video_preview">
+        <div style=position:relative;>
+          <img class="thumbnails" src="pictures/bike.jpg" />
+          <div class="time-stamp">08.24</div>
+        </div>
+
+        <div class="video_grid">
+          <div class="profile_pic">
+            <img class="profile_css" src="pictures/pexels-feyza-yıldırım-13876351.jpg" width=50px" height="50px">
+          </div>
+          <div class="video_info">
+            <p class="video_title">baiskeli</p>
+            <p class="video_author">Victor mbashia</p>
+            <p class="video_stats">5.4M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video_preview">
+        <div style=position:relative;>
+          <img class="thumbnails" src="pictures/cars_on_the_road.jpg" />
+          <div class="time-stamp">09.24</div>
+        </div>
+        <div class="video_grid">
+          <div class="profile_pic">
+            <img class="profile_css" src="pictures/pexels-pixabay-247931.jpg" width="50px" height="50px">
+          </div>
+          <div class="video_info">
+            <p class="video_title">cars on the road</p>
+            <p class="video_author">Victor mbashia</p>
+            <p class="video_stats">2.4M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video_preview">
+        <div style=position:relative;>
+          <img class="thumbnails" src="pictures/bmw.jpg" />
+          <div class="time-stamp">07.13</div>
+        </div>
+        <div class="video_grid">
+          <div class="profile_pic">
+            <img class="profile_css" src="pictures/pexels-feyza-yıldırım-13876351.jpg" width=50px" height="50px">
+          </div>
+          <div class="video_info">
+            <p class="video_title">BMW perfomance car</p>
+            <p class="video_author">Victor mbashia</p>
+            <p class="video_stats">1.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video_preview">
+        <div style=position:relative;>
+          <img class="thumbnails" src="pictures/aesthetic (2).jpg" height="290px" width="100px" />
+          <div class="time-stamp-2">04.54</div>
+          <div class="video_grid">
+            <div class="profile_pic">
+              <img class="profile_css" src="pictures/pexels-pixabay-247931.jpg" width="50px" height="30px">
+            </div>
+            <div class="video_info">
+              <div>
+                <p class="video_title">Aesthetics</p>
+              </div>
+
+              <p class="video_author">Victor mbashia</p>
+              <p class="video_stats">7.4M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+
+  </html>
